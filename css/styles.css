@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+  }
+ 
+  .container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+ 
+  .header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+  }
+
+
+  .box{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+
+  .success{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+  }
+ 
+  .byline {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+ 
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+ 
+  input {
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+ 
+  .button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+ 
+  .button:hover {
+    background-color: darkgreen;
+  }
+ 
+  .error-div {
+    background-color: #fdd;
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    color: red;
+  }
+ 
+  .hidden {
+    display: none;
+  }
+ 
+  .close-button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+ 
+  .email-error {
+    color: red;
+    font-size: 0.9em;
+  }
+ 

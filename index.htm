@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Validator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>The Validator</h1>
+      <p class="byline">by Ignacio Cafferata</p>
+    </header>
+        <div class="box">
+            <div id="errorDiv" class="error-div hidden">
+            <button id="closeError" type="button" class="close-button">x</button>
+            <ul id="errorList"></ul>
+            </div>
+
+
+            <form id="registerForm" action="submitted.htm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+            <span id="emailError" class="email-error"></span>
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" />
+
+
+            <button type="submit" class="button">Register</button>
+            </form>
+        </div>
+  </div>
+
+
+  <script src="js/validator.js"></script>
+</body>
+</html>
